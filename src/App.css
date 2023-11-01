@@ -1,5 +1,35 @@
-.App {
-  text-align: center;
+body {
+  background-color: #0c070f;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff; /* Text color for the entire page */
+}
+
+.app-container {
+  background-color: #0c070f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center; /* Center text in the content */
+}
+
+/* You can keep your existing styles */
+
+/* Styles for Home Page */
+.home-background {
+  background-color: #0c070f; /* Set the background color for the Home page */
+}
+
+/* Styles for Login Page */
+.login-background {
+  background-color: #0c070f; /* Set the background color for the Login page */
+}
+
+/* Styles for Registration Page */
+.registration-background {
+  background-color: #0c070f; /* Set the background color for the Registration page */
 }
 
 .App-logo {
@@ -13,15 +43,19 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* The following styles remove the header from non-home pages */
+.content {
+  background-color: #0c070f;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #fff; /* Text color for the content */
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #61dafb; /* Link text color */
 }
 
 .App-link {
