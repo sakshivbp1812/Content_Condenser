@@ -1,0 +1,67 @@
+/* Global styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to bottom, #000, #222);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  padding: 1rem;
+}
+
+.logo {
+  width: 100px; /* Adjust the size as needed */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 1rem;
+}
+
+/* Video search styles */
+.video-search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.video-search input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  background: #222;
+  color: #fff;
+}
+
+.video-search button {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background: #FF0000; /* Red button color, customize as needed */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.video-search button:hover {
+  background: #FF3333; /* Slightly different color on hover */
+}
+
