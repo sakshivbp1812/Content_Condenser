@@ -1,0 +1,61 @@
+
+  /* SummariesPage.css */
+.summaries-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.left-top {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1; /* Ensure the logo is on top */
+}
+
+.logo {
+  width: 50px; /* Adjust the size of the logo */
+  margin: 0px; /* Add margin for spacing */
+}
+
+.heading {
+  font-size: 35px;
+}
+
+.summary-container {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.sidebar {
+  width: 20%;
+}
+
+.sidebar h2 {
+  font-size: 23px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 25px;
+}
+
+.sidebar li {
+  font-size: 25px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.summary-details {
+  width: 90%;
+}
+
+/* Rest of your CSS styles for other components go here */
