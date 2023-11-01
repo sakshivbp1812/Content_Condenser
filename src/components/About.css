@@ -1,0 +1,52 @@
+/* About.css */
+
+/* Styles for the about-container */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-image: url('aboutbg.jpg'); /* Add the path to your background image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Ensure the background is fixed */
+  color: #36ddf3; /* Text color for the header */
+  position: relative;
+  z-index: 1;
+}
+
+/* Styles for the about-content section */
+.about-content {
+  padding: 20px;
+  text-align: center;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+/* Larger font size and dark theme styles */
+h1, h2, h3, p {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Example for a dark-themed button with hover effect */
+.button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #555;
+}
