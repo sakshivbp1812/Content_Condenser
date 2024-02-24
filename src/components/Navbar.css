@@ -1,0 +1,41 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #222; /* Dark background color */
+    color: #fff;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: background-color 0.5s ease; /* Add transition for smooth color change */
+  }
+  
+  .navbar:hover {
+    background-color: #333; /* Darker color on hover */
+  }
+  
+  .logo {
+    width: 50px;
+  }
+  
+  .right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  

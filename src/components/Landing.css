@@ -10,7 +10,8 @@
     align-items: center;
     height: 100vh;
     padding: 20px;
-    color: #fff; /* Text color for the header */
+    color: #fff; 
+    animation: fadeIn 1s ease-in-out;/* Text color for the header */
 }
 
 .landing-header {
@@ -54,11 +55,23 @@
     border: 2px solid #fff; /* White border for the button */
     color: #fff; /* Text color */
     cursor: pointer;
-    margin-top: 500px; /* Add margin to push the button down */
-    margin-left: 1000px; 
+    margin-top: 450px; /* Add margin to push the button down */
+    margin-left: 900px; 
 }
 
 .get-started-button:hover {
     background-color: #fff; /* Change background color on hover */
     color: #000; /* Change text color on hover */
 }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* ... existing styles ... */
+  

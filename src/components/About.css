@@ -1,52 +1,116 @@
 /* About.css */
-
-/* Styles for the about-container */
 .about-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-  background-image: url('aboutbg.jpg'); /* Add the path to your background image */
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* Ensure the background is fixed */
-  color: #36ddf3; /* Text color for the header */
-  position: relative;
-  z-index: 1;
-}
-
-/* Styles for the about-content section */
-.about-content {
+  background-color: #111;
+  color: #fff;
   padding: 20px;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Updated styles for abstract */
+.abstract {
+  margin-bottom: 70px;
+  text-align: justify;
+}
+
+.abstract h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+.abstract p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Updated styles for team members */
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px; /* Adjusted margin to move them down */
+}
+
+.member {
   text-align: center;
-  margin-top: 0;
-  position: relative;
-  z-index: 1;
 }
 
-/* Larger font size and dark theme styles */
-h1, h2, h3, p {
-  font-size: 30px;
-  font-weight: bold;
-  color: #fff;
-  margin-bottom: 20px;
+.member-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
-/* Example for a dark-themed button with hover effect */
-.button {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+.member-name {
   font-size: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  margin-bottom: 5px;
 }
 
-.button:hover {
+.member-roll-no {
+  font-size: 16px;
+}
+
+/* Updated styles for navbar */
+.navbar {
+  background-color: #111;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.options-slider {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #333;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.user-profile:hover .options-slider {
+  display: flex;
+}
+
+.options-slider a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  transition: background-color 0.3s;
+}
+
+.options-slider a:hover {
   background-color: #555;
 }
+
+/* Add additional styles as needed */
